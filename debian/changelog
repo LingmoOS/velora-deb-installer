@@ -1,0 +1,373 @@
+deepin-deb-installer (6.5.32) unstable; urgency=medium
+
+  * fix: enhance package installation process for immutable systems
+
+ -- dengzhongyuan <dengzhongyuan@uniontech.com>  Tue, 24 Mar 2026 19:45:22 +0800
+
+deepin-deb-installer (6.5.31) unstable; urgency=medium
+
+  * feat: add package cache update functionality
+
+ -- Liu Zhangjian <liuzhangjian@uniontech.com>  Thu, 29 Jan 2026 16:28:05 +0800
+
+deepin-deb-installer (6.5.30) unstable; urgency=medium
+
+  * Fix Qt5 build: disable compatible mode
+  * fix: empty value check (#348)
+  * fix: handle empty package version in conflict resolution (#346) - Add check for empty package version in replace logic - Fix potential issue when replace.packageVersion() is empty - Improve conflict resolution reliability
+  * fix: [env] set user`s environment to QApt (#334)
+  * fix: 双击ddim文件使用软件包安装器打开
+  * refactor: improve text wrapping and code formatting
+
+ -- Liu Zhangjian <liuzhangjian@uniontech.com>  Thu, 22 Jan 2026 16:14:13 +0800
+
+deepin-deb-installer (6.5.29) unstable; urgency=medium
+
+  * fix bugs
+
+ -- Liu Zhangjian <liuzhangjian@uniontech.com>  Thu, 23 Oct 2025 19:28:30 +0800
+
+deepin-deb-installer (6.5.28) unstable; urgency=medium
+
+  * fix: implement path transformation for package selection
+
+ -- Liu Zhangjian <liuzhangjian@uniontech.com>  Fri, 22 Aug 2025 13:05:57 +0800
+
+deepin-deb-installer (6.5.27) unstable; urgency=medium
+
+  * feat: Update translations for Lao locale (#350)
+
+ -- dengzhongyuan <dengzhongyuan@uniontech.com>  Wed, 13 Aug 2025 18:01:51 +0800
+
+deepin-deb-installer (6.5.26) unstable; urgency=medium
+
+  * Update version to 6.5.26. 
+
+ -- Tian ShiLin <tianshilin@uniontech.com>  Thu, 07 Aug 2025 17:46:18 +0800
+
+deepin-deb-installer (6.5.25) unstable; urgency=medium
+
+  * chore: Update the help manual
+
+ -- Liu Zhangjian <liuzhangjian@uniontech.com>  Thu, 10 Jul 2025 19:51:47 +0800
+
+deepin-deb-installer (6.5.24) unstable; urgency=medium
+
+  * update version to 6.5.24. 
+
+ -- Tian ShiLin <tianshilin@uniontech.com>  Tue, 01 Jul 2025 20:34:52 +0800
+
+deepin-deb-installer (6.5.23) unstable; urgency=medium
+
+  * update translations.
+
+ -- Liuyangming <liuyangming@uniontech.com>  Thu, 26 Jun 2025 14:02:22 +0800
+
+deepin-deb-installer (6.5.22) unstable; urgency=medium
+
+  * chore: Update deepin-manual resources
+
+ -- dengzhongyuan <dengzhongyuan@uniontech.com>  Mon, 23 Jun 2025 16:27:12 +0800
+
+deepin-deb-installer (6.5.21) unstable; urgency=medium
+
+  * update translations.
+
+ -- Liuyangming <liuyangming@uniontech.com>  Mon, 23 Jun 2025 13:40:31 +0800
+
+deepin-deb-installer (6.5.20) unstable; urgency=medium
+
+  * Add compiler flags. 
+
+ -- dengzhongyuan <dengzhongyuan@uniontech.com>  Wed, 18 Jun 2025 10:47:29 +0800
+
+deepin-deb-installer (6.5.19) unstable; urgency=medium
+
+  * Update version to 6.5.19.
+
+ -- dengzhongyuan <dengzhongyuan@uniontech.com>  Tue, 17 Jun 2025 17:35:26 +0800
+
+deepin-deb-installer (6.5.18) unstable; urgency=medium
+
+  *  Update version to 6.5.18.
+
+ -- dengzhongyuan <dengzhongyuan@uniontech.com>  Thu, 08 May 2025 19:33:23 +0800
+
+deepin-deb-installer (6.5.17) unstable; urgency=medium
+
+  * fix: memory leak (#328)(Bug: 311727)
+
+ -- renbin <renbin@uniontech.com>  Tue, 29 Apr 2025 17:48:33 +0800
+
+deepin-deb-installer (6.5.16) unstable; urgency=medium
+
+  * fix: Remove outdated mimetype "application-x-uab"
+  * fix: Add parent to QStandardItemModel
+  * fix: Enhance remote file detection(Bug: 313783)
+
+ -- renbin <renbin@uniontech.com>  Thu, 24 Apr 2025 17:14:11 +0800
+
+deepin-deb-installer (6.5.15) unstable; urgency=medium
+
+  * chore: update translations.
+
+ -- renbin <renbin@uniontech.com>  Thu, 17 Apr 2025 09:39:21 +0800
+
+deepin-deb-installer (6.5.14) unstable; urgency=medium
+
+  * chore: update translations
+  * fix: support url(Bug: 312003)
+  * fix: Fix dependency removal in graph(Bug: 311897)
+
+ -- renbin <renbin@uniontech.com>  Thu, 10 Apr 2025 16:06:15 +0800
+
+deepin-deb-installer (6.5.13) unstable; urgency=medium
+
+  * chore: update desktop file
+  * feat: adapt new black list config file path(Task: 374685)
+
+ -- renbin <renbin@uniontech.com>  Wed, 02 Apr 2025 15:44:58 +0800
+
+deepin-deb-installer (6.5.12) unstable; urgency=medium
+
+  * fix: wrong linked package name(Bug: 309051)
+  * fix: optimize symbolic link file naming logic(Bug: 309051)
+
+ -- renbin <renbin@uniontech.com>  Thu, 27 Mar 2025 16:56:59 +0800
+
+deepin-deb-installer (6.5.11) unstable; urgency=medium
+
+  * i18n: Updates for project Deepin Package Installer (#306)
+  * fix: remove duplicate package status detections.(Bug: 307921)
+  * [skip CI] Translate deepin-deb-installer.ts in ja
+  * fix: remove unnecessary check(Bug: 307705)
+  * fix: skip first package check if cached.(Bug: 307705)
+
+ -- renbin <renbin@uniontech.com>  Thu, 20 Mar 2025 19:03:46 +0800
+
+deepin-deb-installer (6.5.10) unstable; urgency=medium
+
+  * fix: can not downgrades(Bug: 305705)
+  * fix: get rootfs list incorrect(Bug: 306523)
+  * chore: update translations.(Bug: 306531)
+
+ -- renbin <renbin@uniontech.com>  Thu, 06 Mar 2025 19:04:14 +0800
+
+deepin-deb-installer (6.5.9) unstable; urgency=medium
+
+  * feat: support uab mimetype
+
+ -- renbin <renbin@uniontech.com>  Fri, 28 Feb 2025 14:26:36 +0800
+
+deepin-deb-installer (6.5.8) unstable; urgency=medium
+
+  * i18n: Updates for project Deepin Package Installer (#298)
+  * fix: app hangs when install uab without linglong(Bug: 292077)
+
+ -- renbin <renbin@uniontech.com>  Thu, 27 Feb 2025 19:13:38 +0800
+
+deepin-deb-installer (6.5.7) unstable; urgency=medium
+
+  * fix: init rootfs first
+
+ -- renbin <renbin@uniontech.com>  Thu, 20 Feb 2025 20:50:21 +0800
+
+deepin-deb-installer (6.5.6) unstable; urgency=medium
+
+  * fix: no install log output(Bug: 303125)
+  * feat: Add app compatibility check and enhance compatible mode
+
+ -- renbin <renbin@uniontech.com>  Thu, 20 Feb 2025 19:36:26 +0800
+
+deepin-deb-installer (6.5.5) unstable; urgency=medium
+
+  * chore: v6.5.5 release.
+  * fix: Update qapt version check.
+  * feat: Enable support Qt6 build.
+
+ -- re2zero <yangwu@uniontech.com>  Mon, 20 Jan 2025 16:30:43 +0800
+
+deepin-deb-installer (6.5.4) unstable; urgency=medium
+
+  * feat: Enable support Qt6 build.
+
+ -- re2zero <yangwu@uniontech.com>  Fri, 3 Jan 2025 16:27:05 +0800
+
+deepin-deb-installer (6.5.3) unstable; urgency=medium
+
+  * fix: assume yes in immutable install(Bug: 291783)(Influence: immutable)
+  * fix: get uab meta info failed(Bug: 292129)(Influence: uab-package)
+  * fix: blocked when uninstall(Bug: 291783)
+  * fix: change tips color when theme changed(Bug: 292139)(Influence: UI)
+  * feat: update immutable config
+
+ -- renbin <renbin@uniontech.com>  Sat, 07 Dec 2024 11:56:09 +0800
+
+deepin-deb-installer (6.5.2) unstable; urgency=medium
+
+  * feat: uab installation add authentication(Task: 36033)(Influence: uab-package)
+  * chore: add comments
+  * chore: format cmakelists.txt
+  * fix: uab use absolute path(Influence: uab-pacakge)
+
+ -- renbin <renbin@uniontech.com>  Sat, 30 Nov 2024 13:16:30 +0800
+
+deepin-deb-installer (6.5.1) unstable; urgency=medium
+
+  * feat: temporarily disable compatibility mode
+  * feat: Add immutable system support(Influence: immutable)
+  * fix: enable keep auth / add install check(Influence: immutable)
+
+ -- renbin <renbin@uniontech.com>  Fri, 15 Nov 2024 13:18:28 +0800
+
+deepin-deb-installer (6.5.0) unstable; urgency=medium
+
+  * chore: Add comment details.
+  * fix: Error message during installation(Bug: 258605)
+  * chore(CI): add debian check workflow
+  * fix: Set default focus widget on each page(Bug: 247435)(Influence: FocusWidget)
+  * fix: UI init wrong when load large package(Bug: 247435)(Influence: FocusWidget)
+  * fix: Change default focus widget(Bug: 247435, 248153, 248161)(Influence: FocusWidget)
+  * fix: Remove clear focus code(Bug: 247435)(Influence: FocusWidget)
+  * fix: Button focus not work in wayland(Bug: 247435)
+  * fix: The effect of checkbox is not fully displayed(Bug: 248145)(Influence: UI)
+  * docs: update readme.md
+  * fix: update hierarchical verify code(Bug: 269341)
+  * feat: deepin-elf-verify or depends(Influence: debian/control)
+  * style: apply clang format
+  * refactor: abstract package model interface
+  * feat: uab package backend(Influence: uab-backend)
+  * feat: uab package process controller(Influence: uab-package)
+  * feat: [translation]add transifex config(Task: 361363)
+  * feat: uab package list model(Influence: uab-package)
+  * feat: mixed deb/uab pacakge installation.(Influence: uab-package)
+  * feat: commit changes to uab backend(Influence: uab-package)
+  * feat: check linglong env and json parser(Influence: uab-package)
+  * refactor: update the installer dbus interface(Influence: uab-package)
+  * fix: tip for installation process
+  * feat: support dbus package manager interface(Influence: uab-package)
+  * feat: add uab icon(Influence: uab-package)
+  * refactor: update uab append fails tips(Influence: uab-package)
+  * feat: support select uab file
+  * chore: update chinese translations
+  * fix: update uab mimetype and uninstall process
+  * fix: compatible fixes
+  * fix: failed to detect replaceable packages(Bug: 275221)
+  * fix: init flag before check 'or depends'(Bug: 275221)
+  * fix: disable providesEnhance in the community edition
+  * feat: add uab icon and fix loop call(Influence: uab-package)
+  * fix: adapt compact mode(Bug: 279783)(Influence: compact-mode)
+  * test: fix some outdated unit tests.
+  * feat: adapt compatible install(Influence: compatible)
+  * feat: add compatible backend(Influence: compatible)
+  * feat: adapt package model with compatibility mode(Influence: compatible)
+  * feat: adapt compatibility mode ui(Influence: compatible)
+  * fix: update the prompt info(Influence: compatible)
+  * feat: compatibility mode support debconf and verify.(Influence: compatible)
+  * fix: add display of packages to be removed(Bug: 275401)
+  * chore: update translation(Influence: translation)
+
+ -- renbin <renbin@uniontech.com>  Thu, 31 Oct 2024 16:03:40 +0800
+
+deepin-deb-installer (6.0.19) unstable; urgency=medium
+
+  * fix: Update qapt version check.
+  * fix: Conflicts contain pkg name install failed.(Bug: 233895)
+
+ -- renbin <renbin@uniontech.com> Tue, 12 Dec 2023 16:54:52 +0800
+
+deepin-deb-installer (6.0.18) unstable; urgency=medium
+
+  * fix: Fix package conflicts and replaces depends error.(Bug: 214693)(Influence: PackageInstall)
+  * fix: Install wine package depends detection error.(Influence: Wine)
+  * fix: Use depends package arch instead of deb file arch.(Bug: 220943)(Influence: DependsAnalysis)
+  * fix: Check for dependency architecture error.(Bug: 220019)(Influence: Dependency)
+  * fix: Remove check provides architecture.(Bug: 222531)
+  * fix: Detect Provides/Or dependencies error.(Issue: #212307)(Influence: ProvidesDepends OrDepends)
+  * fix: Print useless log after install failed.(Bug: 225161)
+  * fix: or/provides depends error when first pkg fails.(Influence: ProvidesDepends)
+  * fix: not responding to template settings input.(Influence: Templates)
+  * fix: Optimize virtual pkg install strategy.(Bug: 229757)(Influence: VirtualPackage)
+
+ -- renbin <renbin@uniontech.com>  Wed, 06 Dec 2023 13:22:46 +0800
+
+deepin-deb-installer (6.0.14) unstable; urgency=medium
+
+  * feat: Add application installation hierarchical verify policy.(Influence: Hierarchical)
+  * fix: Change the way packages are checked for local path.(Influence: PackageVerify)
+  * fix: Selecting multiple packages and pressing the Enter key cannot open the app.(Bug: 199167)(Influence: UI)
+  * chore: Update translation settings and translation files.(Influence: Translation)
+  * test: Add hierarchical control UT.(Influence: UT)
+  * feat: Add hierarchical setting prompt.(Task: 28999)(Influence: Hierarchical)
+  * chore: Add hierarchical setting prompt translation.(Task: 28999)(Influence: Translation)
+  * test: Add hierarchical notify unit test case.(Influence: UnitTest)
+  * fix: Use Event() update palette.(Influence: UpdatePalette)
+  * fix: Remove package will remove "breaks" reverse depends.(Bug: 208617)(Influence: UninstallPcakge)
+  * fix: Read QLatin1String returned from QApt may be freed.(Influence: CheckConflict)
+  * fix: Wrong architecture used while install wine package.(Bug: 205805)(Influence: WineDepends)
+  * fix: Jump to develop mode page instand of common info page.(Bug: 209873)(Influence: DevelopMode)
+  * fix: Dialog text disappear when using large font size.(Bug: 201611)(Influence: DialogText)
+  * fix: UI diff for single-page and multi-page.(Bug: 193971)(Influence: UI)
+  * fix: Adjust layout spacing and margins.(Bug: 193969, 193153, 193205, 157603)(Influence: UI)
+
+ -- Deepin Packages Builder <packages@deepin.org>  Mon, 31 Jul 2023 10:13:04 +0800
+
+deepin-deb-installer (6.0.10) unstable; urgency=medium
+
+  * fix: 修复libqapt包名带后缀无法准确区分版本的问题(Bug: 195557)(Influence: 虚包安装依赖)
+
+ -- Deepin Packages Builder <packages@deepin.org>  Wed, 12 Apr 2023 12:27:31 +0800
+
+deepin-deb-installer (6.0.9) unstable; urgency=medium
+
+  * fix: 移除安装依赖 deepin-elf-verify(Bug: 195557)(Influence: 安装依赖)
+
+ -- Deepin Packages Builder <packages@deepin.org>  Wed, 12 Apr 2023 09:52:04 +0800
+
+deepin-deb-installer (6.0.8) unstable; urgency=medium
+
+  * fix: 移除对 deepin-elf-sign-tool 的强依赖(Influence: 安装依赖)
+
+ -- Deepin Packages Builder <packages@deepin.org>  Fri, 07 Apr 2023 15:59:52 +0800
+
+deepin-deb-installer (6.0.5) unstable; urgency=medium
+
+  * Update version
+
+ -- wangzhengyang <wangzhengyang@uniontech.com>  Thu, 30 Mar 2023 17:19:43 +0800
+deepin-deb-installer (6.0.4) unstable; urgency=medium
+
+  * Update version
+
+ -- wangzhengyang <wangzhengyang@uniontech.com>  Fri, 10 Mar 2023 10:59:41 +0800
+deepin-deb-installer (6.0.3) unstable; urgency=medium
+
+  * Add check for wine depend install
+
+ -- wangzhengyang <wangzhengyang@uniontech.com>  Tue, 21 Feb 2023 13:38:35 +0800
+deepin-deb-installer (6.0.1) unstable; urgency=medium
+
+  * Merge version to 6.0.1
+  * Add DDIM routine
+
+ -- wangzhengyang <wangzhengyang@uniontech.com>  Thu, 14 Feb 2023 15:07:35 +0800
+deepin-deb-installer (5.8.27) unstable; urgency=medium
+
+  * New version 5.8.27
+
+ -- huangzhenglin <huangzhenglin@uniontech.com>  Mon, 9 Jan 2023 16:35:35 +0800
+deepin-deb-installer (5.8.26) unstable; urgency=medium
+
+  * New version 5.8.26
+
+ -- huangzhenglin <huangzhenglin@uniontech.com>  Wed, 4 Jan 2023 16:35:35 +0800
+deepin-deb-installer (5.8.25) unstable; urgency=medium
+
+  * New version 5.8.25
+
+ -- huangzhenglin <huangzhenglin@uniontech.com>  Tue, 3 Jan 2023 16:51:35 +0800
+deepin-deb-installer (5.3.9) unstable; urgency=medium
+
+  * Initial Release.
+
+ -- Deepin Packages Builder <packages@deepin.com>  Wed, 11 Oct 2017 17:38:35 +0800
