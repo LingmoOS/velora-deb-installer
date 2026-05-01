@@ -1,7 +1,7 @@
-Source: deepin-deb-installer
+Source: velora-deb-installer
 Section: utils
 Priority: optional
-Maintainer: Deepin Packages Builder <packages@deepin.com>
+Maintainer: Lingmo OS Team <team@lingmo.org>
 Build-Depends: 
  debhelper (>= 9),
  pkg-config,
@@ -19,7 +19,7 @@ Build-Depends:
  libgtest-dev,
  deepin-gettext-tools,
 Standards-Version: 4.3.0
-Homepage: https://www.deepin.com/
+Homepage: https://github.com/LingmoOS/velora-deb-installer
 
 Package: deepin-deb-installer
 Architecture: any
