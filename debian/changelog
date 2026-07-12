@@ -1,4 +1,4 @@
-velora-deb-installer (6.5.34.lingmo.1) unstable; urgency=medium
+lingmo-deb-installer (6.5.34.lingmo.1) unstable; urgency=medium
 
   * Lingmo namespace migration.
 
