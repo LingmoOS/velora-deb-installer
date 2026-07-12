@@ -16,13 +16,13 @@
 // 分级管控DBus接口信息
 const char DBUS_HIERARCHICAL_BUS[] = "com.deepin.daemon.ACL";
 const char DBUS_HIERARCHICAL_PATH[] = "/org/deepin/security/hierarchical/Control";
-const char DBUS_HIERARCHICAL_INTERFACE[] = "org.deepin.security.hierarchical.Control";
+const char DBUS_HIERARCHICAL_INTERFACE[] = "org.lingmo.security.hierarchical.Control";
 const char DBUS_HIERARCHICAL_METHOD[] = "Availabled";
 
 // 分级管控安全中心界面跳转接口
 const char DBUS_DEFENDER_BUS[] = "com.deepin.defender.hmiscreen";
 const char DBUS_DEFENDER_PATH[] = "/com/deepin/defender/hmiscreen";
-const char DBUS_DEFENDER_INTERFACE[] = "com.deepin.defender.hmiscreen";
+const char DBUS_DEFENDER_INTERFACE[] = "com.lingmo.defender.hmiscreen";
 const char DBUS_DEFENDER_METHOD[] = "ShowPage";
 const char DBUS_DEFENDER_SECURITYTOOLS[] = "securitytools";
 const char DBUS_DEFENDER_APP_SAFETY[] = "application-safety";

@@ -22,7 +22,7 @@ bool PackageSigntureStatus::checkDigitalVerifyTools()
 
 bool PackageSigntureStatus::checkDeviceLock()
 {
-    QDBusInterface Installer("com.deepin.deepinid", "/com/deepin/deepinid", "com.deepin.deepinid");
+    QDBusInterface Installer("com.lingmo.deepinid", "/com/lingmo/deepinid", "com.lingmo.deepinid");
     return Installer.property("DeviceUnlocked").toBool();  // 判断当前是否处于开发者模式
 }
 

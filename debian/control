@@ -1,4 +1,4 @@
-Source: velora-deb-installer
+Source: lingmo-deb-installer
 Section: utils
 Priority: optional
 Maintainer: Lingmo OS Team <team@lingmo.org>
@@ -17,18 +17,18 @@ Build-Depends:
  libqapt-qt6-dev,
  libpolkit-qt6-1-dev,
  libgtest-dev,
- deepin-gettext-tools,
+ lingmo-gettext-tools,
 Standards-Version: 4.3.0
-Homepage: https://github.com/LingmoOS/velora-deb-installer
+Homepage: https://github.com/LingmoOS/lingmo-deb-installer
 
-Package: deepin-deb-installer
+Package: lingmo-deb-installer
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, 
  libqapt3-qt6-runtime, 
  libqapt3-qt6, 
-# deepin-app-store-runtime is available in the community edition.
- deepin-elf-verify | deepin-app-store-runtime, 
- deepin-elf-sign-tool | deepin-app-store-runtime
+# lingmo-app-store-runtime is available in the community edition.
+ deepin-elf-verify | lingmo-app-store-runtime,
+ deepin-elf-sign-tool | lingmo-app-store-runtime
 Description: Package Installer helps users install and remove local packages.
  Package Installer is an easy-to-use .deb package management tool 
  with a simple interface for users to quickly install customized applications

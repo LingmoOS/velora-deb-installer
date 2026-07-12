@@ -14,7 +14,7 @@ DWIDGET_USE_NAMESPACE
 class SingleInstallerApplication : public DApplication
 {
     Q_OBJECT
-    Q_CLASSINFO("D-Bus Interface", "com.deepin.DebInstaller")
+    Q_CLASSINFO("D-Bus Interface", "com.lingmo.DebInstaller")
 public:
     enum AppWorkChannel { NormalChannel, DdimChannel };
 

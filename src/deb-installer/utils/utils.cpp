@@ -451,7 +451,7 @@ bool Utils::isDevelopMode()
             case Dtk::Core::DSysInfo::UosHome: {
                 // Check if current is develop mode
                 QDBusInterface *dbusInterFace = new QDBusInterface(
-                    "com.deepin.sync.Helper", "/com/deepin/sync/Helper", "com.deepin.sync.Helper", QDBusConnection::systemBus());
+                    "com.lingmo.sync.Helper", "/com/lingmo/sync/Helper", "com.lingmo.sync.Helper", QDBusConnection::systemBus());
                 bool deviceMode = dbusInterFace->property("DeveloperMode").toBool();
                 qCDebug(appLog) << "DebListModel:"
                         << "system editon:" << Dtk::Core::DSysInfo::uosEditionName() << "develop mode:" << deviceMode;
@@ -478,7 +478,7 @@ bool Utils::isDevelopMode()
         case Dtk::Core::DSysInfo::DeepinProfessional:
             qCDebug(appLog) << "DeepinProfessional";
             // Check if develop mode
-            QDBusInterface *dbusInterFace = new QDBusInterface("com.deepin.deepinid", "/com/deepin/deepinid", "com.deepin.deepinid");
+            QDBusInterface *dbusInterFace = new QDBusInterface("com.lingmo.deepinid", "/com/lingmo/deepinid", "com.lingmo.deepinid");
             bool deviceMode = dbusInterFace->property("DeviceUnlocked").toBool();
             qInfo() << "DebListModel:" << "system editon:" << Dtk::Core::DSysInfo::uosEditionName() << "develop mode:" << deviceMode;
             kIsDevelopMode = deviceMode;

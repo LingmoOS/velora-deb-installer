@@ -1557,7 +1557,7 @@ void DebListModel::slotShowDevelopModeWindow()
     qCDebug(appLog) << "Opening control center for OS version:" << osVerStr;
     if (osVerStr == "20") {  // V20模式
         qCDebug(appLog) << "OS version is 20, using com.deepin.dde.ControlCenter";
-        QDBusInterface interface("com.deepin.dde.ControlCenter", "/com/deepin/dde/ControlCenter", "com.deepin.dde.ControlCenter");
+        QDBusInterface interface("com.lingmo.ControlCenter", "/com/lingmo/ControlCenter", "com.lingmo.ControlCenter");
         if (interface.isValid()) {
             qCDebug(appLog) << "Calling ShowPage on D-Bus interface";
             interface.call("ShowPage", "commoninfo", "Developer Mode");
